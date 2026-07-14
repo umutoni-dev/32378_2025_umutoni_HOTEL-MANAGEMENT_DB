@@ -1,1 +1,10 @@
-screenshot/README.md
+Screenshots/
+├── DatabaseTables.png
+├── GuestTable.png
+├── ReservationTable.png
+├── ProceduresExecution.png
+├── FunctionsExecution.png
+├── TriggersExecution.png
+├── ViewsExecution.png
+├── DashboardReport.png
+├── ERD.png
