@@ -11,3 +11,14 @@ VALUES ('Dorcas','Uwase','Female','0788000000', 'dorcas@gmail.com','Rwandan');
 
 INSERT INTO Staff (FirstName,LastName,Position,Phone,Salary,HireDate)
 VALUES ('John','Mugisha','Receptionist', '0788111111',350000,'2026-01-15');
+
+INSERT INTO Bill ( ReservationID, RoomCharges, 
+ServiceCharges, TaxAmount, DiscountAmount, BillStatus ) 
+VALUES ( 1, 150000, 20000, 27000, 10000, 'Pending' );
+INSERT INTO Reservation 
+( GuestID, RoomID, CheckInDate, CheckOutDate, 
+ReservationStatus, NumberOfGuests )
+VALUES ( 1, 1, '2026-07-20', '2026-07-23', 'Booked', 2 );
+INSERT INTO Payment ( BillID, PaymentMethod, AmountPaid, TransactionReference ) 
+VALUES ( 1, 'Mobile Money', 187000, 'MTN20260714001' );
+
