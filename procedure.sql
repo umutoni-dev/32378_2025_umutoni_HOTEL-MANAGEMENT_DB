@@ -20,3 +20,14 @@ WHERE ReservationID = @ReservationID;
 UPDATE Reservation SET ReservationStatus = 'Completed'
 WHERE ReservationID = @ReservationID; END;
 
+CREATE PROCEDURE sp_Hotel_Dashboard_Report
+AS BEGIN PRINT 'ROOM OCCUPANCY REPORT'; 
+SELECT * FROM vw_Room_Occupancy_Dashboard;
+PRINT 'REVENUE REPORT';
+SELECT *FROM vw_Revenue_Dashboard; PRINT 'GUEST REPORT';
+SELECT *FROM vw_Guest_Report_Dashboard;
+PRINT 'ROOM PERFORMANCE REPORT';
+SELECT *FROM vw_Room_Performance_Dashboard; PRINT 'PAYMENT REPORT';
+SELECT *FROM vw_Payment_Method_Dashboard; END;
+
+
