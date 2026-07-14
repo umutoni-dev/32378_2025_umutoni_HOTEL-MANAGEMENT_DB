@@ -96,3 +96,9 @@ CONSTRAINT FK_Loyalty_Guest FOREIGN KEY(GuestID) REFERENCES Guest(GuestID),
 CONSTRAINT CHK_Loyalty_Level
 CHECK(MembershipLevel IN ('Silver','Gold','Platinum')) );
 
+
+CREATE TABLE AuditLog ( AuditID INT IDENTITY(1,1) PRIMARY KEY, 
+TableName NVARCHAR(50),
+ActionPerformed NVARCHAR(20), 
+PerformedBy NVARCHAR(100), 
+ActionDate DATETIME DEFAULT GETDATE() );
