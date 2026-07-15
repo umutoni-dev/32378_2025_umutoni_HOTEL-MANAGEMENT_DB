@@ -129,7 +129,9 @@ Provides real-time business insights.
 
 Folder Structure
 
-Hotel-Management-and-Hospitality-Information-System
+Hotel-Management-and-Hospitality
+
+
 │
 ├── CreateTables.sql
 ├── InsertData.sql
@@ -155,10 +157,9 @@ Hotel-Management-and-Hospitality-Information-System
 
 Conclusion
 
-The Hotel Management and Hospitality Information System successfully automates hotel operations and
+The Hotel Management and Hospitality successfully automates hotel operations and
 improves service delivery through database programming and business intelligence reporting. 
 The implementation of the Data Reporting Dashboard further enhances decision-making and 
 operational efficiency within the hospitality industry.
 
 
-The Hotel Management and Hospitality Information System successfully automates hotel operations and improves service delivery through database programming and business intelligence reporting. The implementation of the Data Reporting Dashboard further enhances decision-making and operational efficiency within the hospitality industry.
