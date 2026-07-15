@@ -91,14 +91,23 @@ Payment analysis.
 Technologies Used
 
 Microsoft SQL Server
+
 SQL Server Management Studio (SSMS)
+
 SQL
+
 Stored Procedures
+
 Functions
+
 Triggers
+
 Views
+
 GitHub
+
 Microsoft Word
+
 Microsoft PowerPoint
 
 
